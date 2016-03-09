@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">拼图游戏</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="init_level">1</string>
+    <string name="init_time">50</string>
+    <string name="title_activity_main">拼图游戏</string>
+    <string name="title">拼凑美好记忆</string>
+	<string name="message1">_ ___ _ ____有一种追逐:Fighting</string>
+	<string name="message2">有一种坚持:Kobe</string>
+	<string name="message3">有一种信仰:24</string>
+	<string name="message4">拼凑记忆中的美好</string>
+	
+</resources>

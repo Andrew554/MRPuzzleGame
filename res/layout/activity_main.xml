@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity" >
+
+   <!--  <Button 
+        android:id="@+id/id_new"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:onClick="renew"
+        />
+     -->
+    <com.game.pintu.view.GamePintuLayout
+        android:id="@+id/id_game_pintu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="4dp"
+        android:layout_centerInParent="true"
+        android:text="@string/hello_world" />
+    
+    <RelativeLayout
+        android:id="@+id/id_level_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/id_game_pintu"
+        android:layout_margin="3dp"
+        >
+        
+        <TextView 
+            android:id="@+id/id_level"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#EA7821"
+            android:gravity="center"
+            android:background="@drawable/textbg"
+            android:padding="4dp"
+            android:text="@string/init_level"/>
+        
+        <TextView
+            android:id="@+id/id_time"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/textbg"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="@string/init_time"
+            android:textColor="#EA7821"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        
+    </RelativeLayout>
+    
+    <TextView
+            android:id="@+id/id_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/title"
+            android:textSize="23sp"
+            android:textColor="#EA7821"
+            />
+    <TextView
+            android:id="@+id/id_TV1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="70dp"
+            android:layout_below="@id/id_game_pintu"
+            android:text="@string/message1"
+            android:textSize="19sp"
+            android:textColor="#157"
+             />
+    <TextView
+            android:id="@+id/id_TV2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_below="@id/id_TV1"
+            android:text="@string/message2"
+            android:textSize="17sp"
+            android:textColor="#157"
+             />
+    <TextView
+            android:id="@+id/id_TV3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_below="@id/id_TV2"
+            android:text="@string/message3"
+            android:textSize="15sp"
+            android:textColor="#157"
+             />
+     <TextView
+            android:id="@+id/id_TV4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="245dp"
+            android:layout_below="@id/id_TV3"
+            android:text="@string/message4"
+            android:textSize="13sp"
+            android:textColor="#157"
+             />
+
+</RelativeLayout>
